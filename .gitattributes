@@ -1,0 +1,23 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Handle binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# Specific settings for common file types
+*.sh eol=lf
+*.bat eol=crlf
+*.md text
+*.json text
+*.yml text
+*.yaml text
+*.js text
+*.ts text
+*.css text
+*.html text
+*.xml text
